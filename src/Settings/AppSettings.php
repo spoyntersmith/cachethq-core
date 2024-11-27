@@ -16,6 +16,8 @@ class AppSettings extends Settings
 
     public string $timezone = 'UTC';
 
+    public string $locale = 'en';
+
     public bool $show_timezone = false;
 
     public bool $only_disrupted_days = false;
